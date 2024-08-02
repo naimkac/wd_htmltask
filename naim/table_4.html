@@ -1,0 +1,78 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <table border="2" cellpandding="100px" cellspacing="3px">
+         <h1>Nested Tables</h1>
+        <tr>
+            <td align="center">Header column 1</td>
+            <td align="center">Header column 2</td>
+            <td align="center">Header column 3</td>
+            <td align="center">Header column 4</td>
+        </tr>
+        <tr>
+            <td>Row 2 - Item 1</td>
+            <td>Row 2 - Item 2</td>
+            <td rowspan="4">Row 2 : Nested Table 1 <table border="2" cellpandding="20px" cellspacing="2px"> 
+                <tr>
+                    <td>Row 1 Headet</td>
+                    <td>item</td>
+                </tr>
+                <tr>
+                    <td>Row 2 Headet</td>
+                    <td>item</td>
+                </tr>
+                <tr>
+                    <td>Row 3 Headet</td>
+                    <td>item</td>
+                </tr>
+            </table></td>
+            <td>Row 2 - Item 4 <br> A second line</td>
+        </tr>
+
+        <tr>
+            <td rowspan="3">Row 3 : Nested Table 2 <table border="2" cellpandding="20px" cellspacing="2px">
+                <tr>
+                    <td>Row 1 Header </td>
+                    <td>Item</td>
+                </tr>
+                <tr>
+                    <td>Row 2 Header</td>
+                    <td>item</td>
+                </tr>
+            </table></td>
+            <td rowspan="3">Row 3 - Item 2</td>
+            <td rowspan="4">Row 3 - item 3</td>
+           
+        </tr>
+        <tr>
+             <!--<td>1</td>
+            <td>2</td>
+            <td>3</td>
+            <td>4</td>-->
+        </tr>
+        
+        <tr>
+            <!--<td>1</td>
+            <td>2</td>
+            <td>3</td>
+            <td>4</td>-->
+        </tr>
+        <tr>
+            <td>Row 4 item 1</td>
+            <td>Row 4 item 2</td>
+            <td>Row 4 item 3</td>
+            <!--<td>4</td>-->
+        </tr>
+        <tr>
+            <td colspan="4">Row 5 - Last row of outlater table</td>
+            <!--<td>2</td>
+            <td>3</td>
+            <td>4</td>-->
+        </tr>
+    </table>
+</body>
+</html>
